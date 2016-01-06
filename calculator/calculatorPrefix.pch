@@ -1,0 +1,31 @@
+//
+//  calculatorPrefix.pch
+//  calculator
+//
+//  Created by James on 15/12/09.
+//  Copyright © 2015年 James Shi. All rights reserved.
+//
+
+#ifndef calculatorPrefix_pch
+#define calculatorPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#define TEXT_SCREEN_FONT [UIFont fontWithName: @"HelveticaNeue" size: 20.0]
+#define BUTTON_TITLE_FONT [UIFont fontWithName: @"HelveticaNeue" size: 20.0]
+
+#define TEXT_SCREEN_BACKGROUND_COLOR [UIColor colorWithRed:(205.0f/255.0f) green:(205.0f/255.0f) blue:(205.0f/255.0f) alpha:1.0]
+#define MAIN_BACKGROUND_COLOR [UIColor colorWithRed:(231.0f/255.0f) green:(231.0f/255.0f) blue:(231.0f/255.0f) alpha:1.0]
+#define SCREEN_TEXT_COLOR [UIColor colorWithRed:(120.0f/255.0f) green:(120.0f/255.0f) blue:(120.0f/255.0f) alpha:1.0]
+#define NUMBER_BACKGROUND_COLOR [UIColor colorWithRed:(25.0f/255.0f) green:(25.0f/255.0f) blue:(25.0f/255.0f) alpha:1.0]
+#define PARAMETER_BACKGROUND_COLOR [UIColor colorWithRed:(130.0f/255.0f) green:(130.0f/255.0f) blue:(130.0f/255.0f) alpha:1.0]
+
+#define RESULT_CLEAR_COLOR [UIColor colorWithRed:(247.0f/255.0f) green:(117.0f/255.0f) blue:(74.0f/255.0f) alpha:1.0]
+
+#endif /* calculatorPrefix_pch */
