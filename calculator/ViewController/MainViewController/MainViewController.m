@@ -5,7 +5,7 @@
 //
 //  Created by James on 15/12/09.
 //  Copyright © 2015年 James Shi. All rights reserved.
-// this is dev branch
+// this is master branch
 
 #import "MainViewController.h"
 #import "ResultViewController.h"
