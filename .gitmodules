@@ -1,0 +1,3 @@
+[submodule "/Users/sfdux/Desktop/Github/IOS-Calculator/lib"]
+	path = /Users/sfdux/Desktop/Github/IOS-Calculator/lib
+	url = git://github.com/sfdux/James-IOS-CoreBluetoothScan.git
